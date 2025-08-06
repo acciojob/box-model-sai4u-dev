@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+body {
+	margin:0;
+	padding:0;
+}
+
+.container {
+	padding:36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	gap: 6px;
+	text-align: center;
+}
+
+
+.block {
+	padding: 48px;
+	border-radius: 50%;
+}
+
+.green {
+	background: green;
+}
+
+.red {
+	background: red;
+}
+
+.yellow {
+	background: yellow;
+}
